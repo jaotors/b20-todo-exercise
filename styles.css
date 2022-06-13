@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list-container {
+  width: 800px;
+  margin: 100px auto;
+}
+
+.todo-list-container > h1 {
+  margin-bottom: 10px;
+}
+
+.todo-list-container > .todo-add-container {
+  margin-bottom: 10px;
+}
+
+.todo-list > li {
+  display: flex;
+  font-size: 18px;
+}
+
+.todo-list > li > * + * {
+  margin-left: 10px;
+}
